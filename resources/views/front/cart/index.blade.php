@@ -19,7 +19,7 @@
                         <tr>
                             <td>
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ asset('front/images/products/'.$item->product->image) }}"
+                                    <img src="{{ asset('images/'.$item->product->image) }}"
                                         width="70" class="me-3">
                                     {{ $item->product->name }}
                                 </div>

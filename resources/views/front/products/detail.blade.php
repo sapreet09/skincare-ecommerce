@@ -35,7 +35,7 @@
             @foreach($relatedProducts as $item)
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="{{ asset('front/images/products/'.$item->image) }}"
+                        <img src="{{ asset('images/'.$item->image) }}"
                             class="card-img-top">
                         <div class="card-body text-center">
                             <h6>{{ $item->name }}</h6>

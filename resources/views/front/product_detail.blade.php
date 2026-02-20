@@ -4,7 +4,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <img src="{{ asset('front/images/product_images/'.$product->image) }}"
+                <img src="{{ asset('images/'.$product->image) }}"
                 width="100%">
             </div>
 
